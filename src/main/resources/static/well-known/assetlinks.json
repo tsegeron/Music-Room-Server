@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.laru.musicroom",
+    "sha256_cert_fingerprints":
+    ["07:FB:BE:7B:64:08:A4:90:05:45:2A:C6:96:B7:AB:17:02:CA:F2:66:90:A3:56:80:FA:AC:C3:8D:40:CE:FA:B4"]
+  }
+}]

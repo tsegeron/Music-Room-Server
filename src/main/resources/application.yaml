@@ -1,0 +1,24 @@
+ktor:
+    application:
+        modules:
+            - com.laru.ApplicationKt.module
+    deployment:
+        port: 8080
+
+storage:
+    driverClassName: "org.postgresql.Driver"
+    jdbcURL: $JDBC_URL
+    user: $DB_USER
+    password: $DB_PASSWORD
+
+jwt:
+    secret: $JWT_SECRET
+    issuer: $JWT_ISSUER
+    audience: $JWT_AUDIENCE
+    realm: $JWT_REALM
+
+authentication:
+    SMTPServerUsername: $SMTP_USERNAME
+    SMTPServerPassword: $SMTP_PASSWORD
+    GOOGLE_CLIENT_ID: $GOOGLE_CLIENT_ID
+    GOOGLE_CLIENT_SECRET: $GOOGLE_CLIENT_SECRET
